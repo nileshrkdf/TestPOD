@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/nileshrkdf/TestPOD.git", :tag => "#{spec.version}" }
-
+  spec.resource_bundles = { 'TestPOD' => ['TestPOD/TestPOD/Assets/*.png']}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
